@@ -19,7 +19,7 @@ public class LineView extends JDialog {
 	    private JButton JButtonOk;
 	    private JButton JButtonCancel;
 
-	    public LineView(Frame frame) {
+	    public LineView(java.awt.Frame frame) {
 	        JTextFielditemName = new JTextField(25);
 	        JLabelitemName = new JLabel("Item Name");
 	        
@@ -33,8 +33,7 @@ public class LineView extends JDialog {
 	        JButtonCancel = new JButton("Cancel");
 	        JButtonOk.setActionCommand("OkCreatNewLine");
 	        JButtonCancel.setActionCommand("CancelNewLine");
-	        JButtonOk.addActionListener(frame.getListenerBtns());
-	        JButtonCancel.addActionListener(frame.getListenerBtns());
+	        
 	        
 	        setLayout(new GridLayout(9, 6));
 	        
