@@ -6,6 +6,9 @@ public class InvoiceLine {
 	private String name; // item name
 	private double price;  //item price
 	private int count;   //item count
+	public InvoiceLine(InvoiceHeader h, String s1, double price2, int count2) {
+		// TODO Auto-generated constructor stub
+	}
 	public InvoiceHeader getHeader() {
 		return header;
 	}
@@ -33,5 +36,9 @@ public class InvoiceLine {
 	public double totalLine() {
 		
 		return count*price;
+	}
+	public static void setVisible(boolean b) {
+		// TODO Auto-generated method stub
+		
 	}
 }

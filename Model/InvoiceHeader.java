@@ -55,4 +55,14 @@ public class InvoiceHeader {
 		this.d = d;
 	}
 	
+	public void fireTableDataChanged() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public String getTotalInvoice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }
